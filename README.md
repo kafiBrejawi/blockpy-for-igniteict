@@ -1,7 +1,7 @@
 BlockPy for IgniteICT
 ==============
 
-![BlockPy for IgniteICT](images/logo.png?raw=true "BlockPy for IgniteICT")
+![BlockPy for IgniteICT](images/logo "BlockPy for IgniteICT")
 
 BlockPy for IgniteICT is a web-based Python environment that lets you work with blocks, text, or both. Designed for Data Science and equipped with powerful tools like the State Explorer and Guided Feedback, the goal of BlockPy for IgniteICT is to let you solve authentic, real-world problems.
 
