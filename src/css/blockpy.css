@@ -1,6 +1,6 @@
 /** Entire Page **/
 .blockpy-content .row {
-    border-bottom: 1px solid #faebcc;
+    border-bottom: 1px solid #4a90e2; /* Changed from #faebcc to IgniteICT secondary blue */
 }
 
 .blockpy-content .blockpy-panel {
@@ -15,6 +15,8 @@
 
 .blockpy-header {
     height: 25%;
+    background-color: #0046ad; /* Added IgniteICT primary blue */
+    color: white; /* Added for contrast */
 }
 
 .blockpy-overlay {
@@ -33,7 +35,7 @@
 
 .green-check-mark {
     font-weight: bold;
-    color: green;
+    color: #28a745; /* Changed from green to IgniteICT green */
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -79,14 +81,16 @@
 
 .blockpy-instructions-reset a {
     font-size: smaller;
+    color: #0046ad; /* Added IgniteICT primary blue */
 }
 
 .blockpy-content .blockpy-instructions {
+    background-color: #f5f7fa; /* Added IgniteICT light gray */
 }
 
 .blockpy-content .blockpy-quick-menu {
     padding-left: 10px;
-    border-left: 1px solid #faebcc;
+    border-left: 1px solid #4a90e2; /* Changed from #faebcc to IgniteICT secondary blue */
 }
 
 /** Second Row **/
@@ -109,19 +113,19 @@
 
 .blockpy-printer-default {
     background-color: white;
-    border: 1px solid lightgray;
+    border: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .blockpy-printer-inverse {
-    background-color: black;
-    border: 1px solid darkgray;
+    background-color: #333333; /* Changed from black to IgniteICT dark gray */
+    border: 1px solid #4a90e2; /* Changed from darkgray to IgniteICT secondary blue */
     color: white;
 }
 
 .blockpy-printer .blockpy-printer-output {
     display: block;
     padding-left: 10px;
-    border-bottom: 1px dashed lightgray;
+    border-bottom: 1px dashed #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .blockpy-printer .blockpy-printer-output samp {
@@ -138,12 +142,15 @@
 
 .blockpy-console-input input {
     width: 75%;
+    border-color: #4a90e2; /* Added IgniteICT secondary blue */
 }
 
 .blockpy-btn-eval {
     position: absolute;
     bottom: 2px;
     left: 20px;
+    background-color: #ff9900; /* Added IgniteICT orange */
+    color: white; /* Added for contrast */
 }
 
 /** Feedback **/
@@ -154,7 +161,7 @@
 }
 
 .blockpy-content .label-internal-error {
-    background-color: black;
+    background-color: #333333; /* Changed from black to IgniteICT dark gray */
 }
 
 .blockpy-content .label-syntax-error {
@@ -170,11 +177,11 @@
 }
 
 .blockpy-content .label-feedback-error {
-    background-color: #f0ad4e;
+    background-color: #ff9900; /* Changed from #f0ad4e to IgniteICT orange */
 }
 
 .blockpy-content .label-problem-complete {
-    background-color: #5cb85c;
+    background-color: #28a745; /* Changed from #5cb85c to IgniteICT green */
 }
 
 .blockpy-content .label-none {
@@ -182,15 +189,15 @@
 }
 
 .blockpy-content .label-no-errors {
-    background-color: #5bc0de;
+    background-color: #00b5e2; /* Changed from #5bc0de to IgniteICT light blue */
 }
 
 .blockpy-content .label-instructions {
-    background-color: #5bc0de;
+    background-color: #00b5e2; /* Changed from #5bc0de to IgniteICT light blue */
 }
 
 .blockpy-content .label-success {
-    background-color: #358535;
+    background-color: #28a745; /* Changed from #358535 to IgniteICT green */
 }
 
 .blockpy-feedback {
@@ -226,7 +233,7 @@ table.pedal-table {
 }
 
 table.pedal-table tr.pedal-row {
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 table.pedal-table pre.pedal-python-code {
@@ -234,8 +241,8 @@ table.pedal-table pre.pedal-python-code {
 }
 
 .blockpy-feedback pre {
-    background: #f0f0f0;
-    border: 1px solid lightgrey;
+    background: #f5f7fa; /* Changed from #f0f0f0 to IgniteICT light gray */
+    border: 1px solid #4a90e2; /* Changed from lightgrey to IgniteICT secondary blue */
     font-size: 12px;
     padding: 3px 5px;
     border-radius: 4px;
@@ -247,19 +254,19 @@ table.pedal-table pre.pedal-python-code {
 }
 
 .blockpy-feedback pre span.filename {
-    color: green;
+    color: #28a745; /* Changed from green to IgniteICT green */
     font-weight: bold;
     font-size: 12px;
 }
 
 .blockpy-feedback pre span.lineno {
-    color: orangered;
+    color: #ff9900; /* Changed from orangered to IgniteICT orange */
     font-weight: bold;
     font-size: 12px;
 }
 
 .blockpy-feedback-unit code {
-    color: black;
+    color: #333333; /* Changed from black to IgniteICT dark gray */
     background-color: transparent;
 }
 
@@ -271,7 +278,7 @@ table.pedal-table pre.pedal-python-code {
     z-index: 100;
     margin-top: 10px;
     display: none;
-    color: red;
+    color: #ff9900; /* Changed from red to IgniteICT orange */
 }
 
 /** Trace **/
@@ -287,6 +294,8 @@ table.pedal-table pre.pedal-python-code {
 .blockpy-content .blockpy-trace-controls button {
     margin-top: 0px;
     margin-bottom: 0px;
+    background-color: #0046ad; /* Added IgniteICT primary blue */
+    color: white; /* Added for contrast */
 }
 
 /** Third Row **/
@@ -300,27 +309,27 @@ table.pedal-table pre.pedal-python-code {
 
 .blockpy-content .nav-link {
     padding: .2rem .5rem;
-    background-color: #cccccc;
-    color: black;
+    background-color: #4a90e2; /* Changed from #cccccc to IgniteICT secondary blue */
+    color: white; /* Changed from black to white for contrast */
     border: none;
-    border-left: 2px solid #ddd;
-    border-right: 2px solid #ddd;
+    border-left: 2px solid #0046ad; /* Changed from #ddd to IgniteICT primary blue */
+    border-right: 2px solid #0046ad; /* Changed from #ddd to IgniteICT primary blue */
     border-radius: 0;
 }
 
 .blockpy-content .nav-link.active {
     background-color: white;
-    color: black;
-    border: 1px solid #ddd;
-    border-right: 2px solid #ddd;
-    border-left: 2px solid #ddd;
+    color: #0046ad; /* Changed from black to IgniteICT primary blue */
+    border: 1px solid #0046ad; /* Changed from #ddd to IgniteICT primary blue */
+    border-right: 2px solid #0046ad; /* Changed from #ddd to IgniteICT primary blue */
+    border-left: 2px solid #0046ad; /* Changed from #ddd to IgniteICT primary blue */
     /* padding: .2rem .3rem .1rem; */
     padding-bottom: .1rem;
     font-weight: bold;
 }
 
 .blockpy-content .nav-link:hover {
-    background-color: #ddd;
+    background-color: #00b5e2; /* Changed from #ddd to IgniteICT light blue */
 }
 
 .blockpy-content .nav-link.active:hover {
@@ -332,7 +341,7 @@ table.pedal-table pre.pedal-python-code {
 }
 
 .blockpy-content .nav-link.uneditable {
-    color: darkblue;
+    color: #0046ad; /* Changed from darkblue to IgniteICT primary blue */
     font-style: italic;
 }
 
@@ -378,19 +387,20 @@ table.pedal-table pre.pedal-python-code {
     padding-bottom: 10px;
     border: 1px solid #faebcc*/
     padding-left: 0px;
+    background-color: #f5f7fa; /* Added IgniteICT light gray */
 }
 
 button.blockpy-run {
-    background-color: rgb(40, 130, 40);
+    background-color: #0046ad; /* Changed from rgb(40, 130, 40) to IgniteICT primary blue */
     color: white;
 }
 
 button.blockpy-run:focus {
-    background-color: rgb(20, 100, 20);
+    background-color: #00b5e2; /* Changed from rgb(20, 100, 20) to IgniteICT light blue */
 }
 
 .blockpy-content button.blockpy-run.blockpy-run-running {
-    background-color: #f0ad4e;
+    background-color: #ff9900; /* Changed from #f0ad4e to IgniteICT orange */
 }
 
 .blockpy-content button.blockpy-run.blockpy-run-error {
@@ -399,35 +409,35 @@ button.blockpy-run:focus {
 
 button.blockpy-delete {
     background-color: white;
-    border-color: rgb(130, 40, 40);
-    color: black;
+    border-color: #d9534f; /* Changed from rgb(130, 40, 40) to Bootstrap danger color */
+    color: #333333; /* Changed from black to IgniteICT dark gray */
 }
 
 button.blockpy-delete:focus {
-    border-color: rgb(100, 20, 20);
+    border-color: #c82131; /* Changed from rgb(100, 20, 20) to darker red */
 }
 
 button.blockpy-delete:active {
-    background-color: rgb(100, 20, 20);
+    background-color: #d9534f; /* Changed from rgb(100, 20, 20) to Bootstrap danger color */
     color: white;
 }
 
 .blockpy-text {
-    border: 1px solid lightgray;
+    border: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .blockpy-upload {
-    border: 1px solid lightgray;
+    border: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .editor-active-line {
-    background: #C4FBC4 !important;
-    color: #8a1f11 !important;
+    background: #f5f7fa !important; /* Changed from #C4FBC4 to IgniteICT light gray */
+    color: #0046ad !important; /* Changed from #8a1f11 to IgniteICT primary blue */
 }
 
 .CodeMirror-gutters {
-    background-color: #ddd;
-    border-left: 1px solid #bbb;
+    background-color: #f5f7fa; /* Changed from #ddd to IgniteICT light gray */
+    border-left: 1px solid #4a90e2; /* Changed from #bbb to IgniteICT secondary blue */
 }
 
 .editor-error-line {
@@ -452,29 +462,29 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 }
 
 .CodeMirror-code div pre {
-    border-bottom: 1px dashed rgba(1, 1, 1, .1);
+    border-bottom: 1px dashed rgba(74, 144, 226, .3); /* Changed from rgba(1, 1, 1, .1) to IgniteICT secondary blue with transparency */
 }
 
 .blockpy-read-only .CodeMirror-scroll {
-    background-color: #E5E5E5;
+    background-color: #f5f7fa; /* Changed from #E5E5E5 to IgniteICT light gray */
 }
 
 /** Markdown Editor **/
 .blockpy-content .editor-preview {
-    background: #fcf8e3;
+    background: #f5f7fa; /* Changed from #fcf8e3 to IgniteICT light gray */
     padding: 0px;
-    border: 1px solid #faebcd;
+    border: 1px solid #4a90e2; /* Changed from #faebcd to IgniteICT secondary blue */
 }
 
 .blockpy-content .editor-toolbar {
-    background: #eee;
-    border: 1px solid lightgrey
+    background: #f5f7fa; /* Changed from #eee to IgniteICT light gray */
+    border: 1px solid #4a90e2; /* Changed from lightgrey to IgniteICT secondary blue */
 }
 
 .blockpy-content .cm-s-easymde {
-    border-bottom: 1px solid lightgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid #4a90e2; /* Changed from lightgrey to IgniteICT secondary blue */
+    border-left: 1px solid #4a90e2; /* Changed from lightgrey to IgniteICT secondary blue */
+    border-right: 1px solid #4a90e2; /* Changed from lightgrey to IgniteICT secondary blue */
 }
 
 .blockpy-content .cm-s-easymde .CodeMirror-scroll {
@@ -498,15 +508,15 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 }
 
 .blockpy-content .badge.server-status-ready {
-    background-color: #5cb85c;
+    background-color: #28a745; /* Changed from #5cb85c to IgniteICT green */
 }
 
 .blockpy-content .badge.server-status-active {
-    background-color: #5bc0de;
+    background-color: #00b5e2; /* Changed from #5bc0de to IgniteICT light blue */
 }
 
 .blockpy-content .badge.server-status-retrying {
-    background-color: #f0ad4e;
+    background-color: #ff9900; /* Changed from #f0ad4e to IgniteICT orange */
 }
 
 .blockpy-content .badge.server-status-failed {
@@ -514,7 +524,7 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 }
 
 .blockpy-content .badge.server-status-offline {
-    background-color: #333;
+    background-color: #333333; /* Changed from #333 to IgniteICT dark gray */
 }
 
 .blockpy-content .blockpy-hidden-file {
@@ -557,17 +567,18 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 .blockpy-content .blockpy-feedback-positive .blockpy-feedback-positive-icon {
     font-size: 16px;
     cursor: pointer;
+    color: #28a745; /* Added IgniteICT green */
 }
 
 .blockpy-content .blockpy-dialog-student-error-message {
     padding: 10px;
-    border: 1px solid lightgray;
+    border: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .blockpy-quick-menu .blockpy-student-error {
     font-size: 16px;
     cursor: pointer;
-    color: pink;
+    color: #ff9900; /* Changed from pink to IgniteICT orange */
     display: none;
 }
 
@@ -576,7 +587,7 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 }
 
 .pedal-positive-mark {
-    color: green;
+    color: #28a745; /* Changed from green to IgniteICT green */
     font-size: 16px;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
@@ -593,11 +604,11 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
     white-space: nowrap;
     /*line-height: 24px;*/
     /*height: 24px;*/
-    border: 1px solid darkgray;
+    border: 1px solid #4a90e2; /* Changed from darkgray to IgniteICT secondary blue */
     border-bottom: none;
     position: relative;
     padding-left: 2px;
-    background-color: #F0F0F0;
+    background-color: #f5f7fa; /* Changed from #F0F0F0 to IgniteICT light gray */
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
 }
@@ -634,7 +645,7 @@ div.blockpy-blocks.blockpy-editor-menu.col-md-6 {
 
 .feedback-expand-on-click {
     cursor: pointer;
-    border: 1px solid lightgray;
+    border: 1px solid #4a90e2; /* Changed from lightgray to IgniteICT secondary blue */
 }
 
 .feedback-shrunk.feedback-expand-on-click::before {
