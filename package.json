@@ -1,7 +1,8 @@
 {
-  "name": "blockpy",
-  "version": "1.0.0",
-  "description": "corgis-blockly",
+  
+  "name": "blockpy-for-igniteict",
+   "version": "1.0.0",
+  "description": "BlockPy for IgniteICT - A web-based Python environment for education",
   "main": "index.js",
   "directories": {
     "doc": "docs",
